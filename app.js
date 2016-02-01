@@ -4,8 +4,8 @@ var AWS = require('aws-sdk');
 var app = express();
 
 AWS.config.update({
-"accessKeyId": "",
-  "secretAccessKey": "",
+"accessKeyId": "access_id",
+  "secretAccessKey": "secret_key",
   "region": "us-west-2"
 });
 // Create an S3 client
